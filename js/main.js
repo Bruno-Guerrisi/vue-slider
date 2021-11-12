@@ -70,6 +70,10 @@ const app = new Vue({
             }
         },
 
+        activeSlide(i){
+            this.activeSlides = i;
+        },
+
     }
     
     
